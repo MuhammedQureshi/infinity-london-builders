@@ -1,4 +1,9 @@
 import { ServiceCategory, FeaturedProject, ProcessStep, InsightArticle, StatItem } from '../types';
+import kensingtonExtension from '../assets/images/kensington_extension_1786616602763.jpg';
+import mayfairCommercial from '../assets/images/mayfair_commercial_1786616614606.jpg';
+import belgraviaBasement from '../assets/images/belgravia_basement_1786616625155.jpg';
+import heroLuxuryExtension from '../assets/images/hero_luxury_extension_1786616587617.jpg';
+import chelseaResidential from '../assets/images/chelsea_residential_1786616639607.jpg';
 
 export const STATS_DATA: StatItem[] = [
   { value: "15+", label: "Years Experience", description: "Master craft leadership in London prime postcodes" },
@@ -110,7 +115,7 @@ export const FEATURED_PROJECTS: FeaturedProject[] = [
     year: "2025",
     area: "480 sq m",
     layoutType: "large",
-    imageUrl: "/src/assets/images/kensington_extension_1786616602763.jpg",
+      imageUrl: kensingtonExtension,
     summary: "A triple-aspect rear glass extension featuring a 12-tonne cantilevered steel framework and subterranean lightwell.",
     fullDescription: "This flagship project involved underpinning an existing Victorian townhouse in Kensington to allow for a dramatic 4.5-metre tall glass and structural steel rear extension. By removing three internal load-bearing brick masonry walls and substituting them with ultra-slim structural steel box frames, we created a column-free garden gallery space with seamless underfloor heating and recessed pocket glazing.",
     structuralHighlight: "12-tonne cantilevered structural steel portal frame with 8m clear glass span.",
@@ -136,7 +141,7 @@ export const FEATURED_PROJECTS: FeaturedProject[] = [
     year: "2025",
     area: "620 sq m",
     layoutType: "square",
-    imageUrl: "/src/assets/images/mayfair_commercial_1786616614606.jpg",
+      imageUrl: mayfairCommercial,
     summary: "A high-spec commercial headquarters build incorporating acoustic steel partitions and structural mezzanine floors.",
     fullDescription: "Transforming a historic Mayfair office interior into a state-of-the-art private equity firm headquarters. The scope encompassed total structural demolition of existing modern additions, structural floor reinforcement to house heavy fireproof vault systems, custom brass and bronze architectural joinery, and concealed VRF climate control systems.",
     structuralHighlight: "Floor load capacity upgraded to 7.5 kN/sq m via structural floor beams.",
@@ -162,7 +167,7 @@ export const FEATURED_PROJECTS: FeaturedProject[] = [
     year: "2024",
     area: "350 sq m",
     layoutType: "square",
-    imageUrl: "/src/assets/images/belgravia_basement_1786616625155.jpg",
+      imageUrl: belgraviaBasement,
     summary: "A double-depth subterranean concrete basement build with sunken garden courtyard and subterranean pool vault.",
     fullDescription: "Constructed directly beneath a Grade II listed Georgian property in Belgravia. Our heavy civil engineering team sunk continuous secant pile walls and poured a waterproof concrete box foundation to a depth of 7.2 metres, housing a subterranean wellness spa, gym, and private cinema without disturbing neighboring foundations.",
     structuralHighlight: "Double-depth 7.2m subterranean excavation beneath Grade II listed structure.",
@@ -188,7 +193,7 @@ export const FEATURED_PROJECTS: FeaturedProject[] = [
     year: "2024",
     area: "520 sq m",
     layoutType: "tall",
-    imageUrl: "/src/assets/images/chelsea_residential_1786616639607.jpg",
+      imageUrl: chelseaResidential,
     summary: "Complete structural rebuild and rear brick-and-glass elevation overhaul for a 5-storey Chelsea residence.",
     fullDescription: "A comprehensive rebuild retaining only the historic front facade. The entire internal structure was removed and replaced with a modern steel and concrete skeletal frame. The rear features hand-picked handmade Belgian bricks paired with ultra-slim dark bronze structural window systems.",
     structuralHighlight: "Retained heritage front facade with complete internal steel framework replacement.",
@@ -263,7 +268,7 @@ export const INSIGHT_ARTICLES: InsightArticle[] = [
     category: "STRUCTURAL ENGINEERING",
     title: "Navigating London Basement Construction & Sub-Structure Regulations",
     readTime: "5 min read",
-    imageUrl: "/src/assets/images/belgravia_basement_1786616625155.jpg",
+    imageUrl: belgraviaBasement,
     summary: "Essential guidance on continuous secant piling, party wall notices, and lightwell permissions for subterranean builds in Westminster and Kensington & Chelsea.",
     content: [
       "Subterranean construction in prime London boroughs requires an uncompromising approach to geotechnical risk management and structural engineering. Local planning authorities in Westminster, Kensington & Chelsea, and Camden enforce stringent Subterranean Development Policies.",
@@ -281,7 +286,7 @@ export const INSIGHT_ARTICLES: InsightArticle[] = [
     category: "PREMIUM MATERIALS",
     title: "Selecting Sustainable Heavy-Gauge Steel & High-Thermal Materials for Extensions",
     readTime: "4 min read",
-    imageUrl: "/src/assets/images/hero_luxury_extension_1786616587617.jpg",
+    imageUrl: heroLuxuryExtension,
     summary: "How low-carbon recycled European steel sections and triple-glazed vacuum thermal glass create carbon-neutral residential extensions.",
     content: [
       "Modern luxury structural extensions no longer force a compromise between massive open glass spans and energy efficiency. Recent breakthroughs in structural vacuum glazing provide U-values below 0.6 W/m²K, rivaling solid insulated masonry walls.",
@@ -299,7 +304,7 @@ export const INSIGHT_ARTICLES: InsightArticle[] = [
     category: "MASTER ENGINEERING",
     title: "The Structural Precision of Cantilevered Glass and Steel Foundations in Historic Terraces",
     readTime: "6 min read",
-    imageUrl: "/src/assets/images/kensington_extension_1786616602763.jpg",
+    imageUrl: kensingtonExtension,
     summary: "Integrating structural glass fins and hidden steel shoe beams to achieve seamless column-free living in Victorian and Georgian homes.",
     content: [
       "Inserting modern light-filled living spaces into narrow Victorian terraced footprints demands clever structural weight redistribution. Removing traditional rear outriggers creates huge load transfers onto slender side party walls.",

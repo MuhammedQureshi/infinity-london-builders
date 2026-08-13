@@ -2,6 +2,7 @@ import React from 'react';
 import { ArrowDownRight, Award, Shield, CheckCircle2, Clock } from 'lucide-react';
 import { STATS_DATA } from '../data/constructionData';
 import { ScrollReveal } from './ScrollReveal';
+import luxuryHero from '../assets/images/luxury_hero_bg_1786619260131.jpg';
 
 export const Hero: React.FC = () => {
   const scrollToProjects = (e: React.MouseEvent) => {
@@ -18,7 +19,7 @@ export const Hero: React.FC = () => {
       {/* High-Res Luxury Building Background Image Layer */}
       <div className="absolute inset-0 z-0">
         <img
-          src="/src/assets/images/luxury_hero_bg_1786619260131.jpg"
+          src={luxuryHero}
           alt="Luxury High-Res London Residence Structural Build"
           className="w-full h-full object-cover object-center filter brightness-[0.85] contrast-[1.05] transition-transform duration-1000 scale-105"
           referrerPolicy="no-referrer"
