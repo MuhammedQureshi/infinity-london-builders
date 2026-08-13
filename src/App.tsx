@@ -1,4 +1,5 @@
 import React from 'react';
+import { Analytics } from '@vercel/analytics/react';
 import { Header } from './components/Header';
 import { Hero } from './components/Hero';
 import { StatsSeparator } from './components/StatsSeparator';
@@ -41,6 +42,9 @@ export default function App() {
 
       {/* 7. Insights Grid & Editorial Footer (Dark Theme) */}
       <InsightsFooter />
+      
+      {/* Vercel Web Analytics */}
+      <Analytics />
     </div>
   );
 }
