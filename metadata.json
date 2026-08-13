@@ -1,0 +1,6 @@
+{
+  "name": "Infinity London Builders",
+  "description": "Prestige structural extensions, master craft construction, and bespoke premium renovations across London.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
